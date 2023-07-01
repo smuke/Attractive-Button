@@ -1,6 +1,6 @@
 const buttonContainer = document.getElementById("button-container");
-const button = document.getElementById("glowing-button");
-const glow = buttonContainer.querySelector(".button-glow");
+const button = document.getElementById("button");
+const glow = buttonContainer.querySelector("#button-glow");
 
 buttonContainer.addEventListener("mousemove", (e) => {
     // Positions, 100 is half of glow size (200)
